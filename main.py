@@ -2,9 +2,26 @@ import dolgozat
 
 print("1. Feladat")
 """paros=dolgozat.beker()
-print(paros)"""
+print(paros)
 print("")
 parosb=dolgozat.bekerb()
 print(parosb)
-
+print("")
+legkisebb=dolgozat.bekerc()
+print(legkisebb)"""
+print("")
+print("")
 print("2. Feladat")
+lista=dolgozat.veletlen()
+print(f"A lista: {lista}")
+print("")
+ketjegyuek=dolgozat.ketjegyuek_szama(lista)
+print(f"A kétjegyű számok száma: {ketjegyuek}")
+print("")
+osszegparos=dolgozat.paros_osszege(lista)
+osszegparatlan=dolgozat.paratlan_osszege(lista)
+nagyobb_szam=dolgozat.nagyobb(lista)
+print(f"A párosok összege {osszegparos} > a páratlanok összege {osszegparatlan}")
+print("")
+print("")
+print("3. Feladat")
